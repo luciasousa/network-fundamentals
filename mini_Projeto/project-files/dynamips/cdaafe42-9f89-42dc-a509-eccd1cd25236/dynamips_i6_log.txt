@@ -1,0 +1,47 @@
+Dec 07 10:12:44.183 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 07 10:12:44.183 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 37477.
+Dec 07 10:12:44.194 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 07 10:12:44.194 HYPERVISOR: exec_cmd: hypervisor working_dir /home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips 
+Dec 07 10:12:44.194 GENERAL: working_dir=/home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips
+Dec 07 10:12:44.195 HYPERVISOR: exec_cmd: hypervisor working_dir /home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips/cdaafe42-9f89-42dc-a509-eccd1cd25236 
+Dec 07 10:12:44.195 GENERAL: working_dir=/home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips/cdaafe42-9f89-42dc-a509-eccd1cd25236
+Dec 07 10:12:44.195 HYPERVISOR: exec_cmd: vm create ESW3 6 c3725 
+Dec 07 10:12:44.195 VM: VM ESW3 created.
+Dec 07 10:12:44.195 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW3 5017 
+Dec 07 10:12:44.196 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW3 
+Dec 07 10:12:44.196 HYPERVISOR: exec_cmd: vm set_ios ESW3 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:12:44.197 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Dec 07 10:12:44.197 HYPERVISOR: exec_cmd: vm set_idle_pc ESW3 0x60a68e70 
+Dec 07 10:12:44.197 HYPERVISOR: exec_cmd: vm set_nvram ESW3 256 
+Dec 07 10:12:44.198 HYPERVISOR: exec_cmd: vm set_disk0 ESW3 1 
+Dec 07 10:12:44.198 HYPERVISOR: exec_cmd: vm get_status ESW3 
+Dec 07 10:12:44.199 HYPERVISOR: exec_cmd: vm slot_add_binding ESW3 1 0 NM-16ESW 
+Dec 07 10:12:44.258 HYPERVISOR: exec_cmd: vm set_ios ESW3 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:13:26.684 HYPERVISOR: exec_cmd: vm set_ios ESW3 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:13:26.685 HYPERVISOR: exec_cmd: vm rename ESW3 F1 
+Dec 07 10:13:26.738 HYPERVISOR: exec_cmd: vm set_ios F1 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:13:32.258 HYPERVISOR: exec_cmd: vm set_ios F1 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:13:35.659 HYPERVISOR: exec_cmd: vm set_ios F1 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:13:38.137 HYPERVISOR: exec_cmd: vm set_ios F1 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:13:41.997 HYPERVISOR: exec_cmd: vm set_ios F1 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:14:10.305 HYPERVISOR: exec_cmd: vm set_ios F1 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:14:15.717 HYPERVISOR: exec_cmd: vm set_ios F1 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:14:18.241 HYPERVISOR: exec_cmd: vm set_ios F1 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:16:35.873 HYPERVISOR: exec_cmd: vm set_ios F1 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:55:21.003 HYPERVISOR: exec_cmd: nio create_udp udp-7258cfde-e807-4bfe-95e4-074a758c0d43 10022 127.0.0.1 10023 
+Dec 07 10:55:21.212 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F1 1 2 udp-7258cfde-e807-4bfe-95e4-074a758c0d43 
+Dec 07 10:55:21.212 HYPERVISOR: exec_cmd: vm get_status F1 
+Dec 07 10:57:40.449 HYPERVISOR: exec_cmd: nio create_udp udp-2262b112-a7c8-4734-a574-d0e92d7a9d4b 10046 127.0.0.1 10047 
+Dec 07 10:57:40.450 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F1 1 1 udp-2262b112-a7c8-4734-a574-d0e92d7a9d4b 
+Dec 07 10:57:40.451 HYPERVISOR: exec_cmd: vm get_status F1 
+Dec 07 10:59:04.349 HYPERVISOR: exec_cmd: nio create_udp udp-082552aa-9183-4377-94c2-a821f1548e8a 10062 127.0.0.1 10063 
+Dec 07 10:59:04.351 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F1 0 0 udp-082552aa-9183-4377-94c2-a821f1548e8a 
+Dec 07 10:59:04.351 HYPERVISOR: exec_cmd: vm get_status F1 
+Dec 07 11:00:24.984 HYPERVISOR: exec_cmd: nio create_udp udp-46ea80a6-e718-4bd8-804b-741bbea6db95 10068 127.0.0.1 10069 
+Dec 07 11:00:24.985 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F1 0 1 udp-46ea80a6-e718-4bd8-804b-741bbea6db95 
+Dec 07 11:00:24.986 HYPERVISOR: exec_cmd: vm get_status F1 
+Dec 07 11:00:37.528 HYPERVISOR: exec_cmd: nio create_udp udp-cd24ebf8-f388-45a5-82a1-182dc4a96a4f 10072 127.0.0.1 10073 
+Dec 07 11:00:37.529 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F1 1 3 udp-cd24ebf8-f388-45a5-82a1-182dc4a96a4f 
+Dec 07 11:00:37.529 HYPERVISOR: exec_cmd: vm get_status F1 
+Dec 07 11:08:00.089 HYPERVISOR: exec_cmd: vm set_ios F1 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 11:08:08.515 HYPERVISOR: exec_cmd: vm set_ios F1 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 

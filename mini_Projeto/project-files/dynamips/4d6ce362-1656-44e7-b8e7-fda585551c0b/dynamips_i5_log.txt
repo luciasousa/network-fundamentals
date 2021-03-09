@@ -1,0 +1,41 @@
+Dec 07 10:12:42.795 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 07 10:12:42.795 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 45245.
+Dec 07 10:12:42.805 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 07 10:12:42.805 HYPERVISOR: exec_cmd: hypervisor working_dir /home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips 
+Dec 07 10:12:42.805 GENERAL: working_dir=/home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips
+Dec 07 10:12:42.805 HYPERVISOR: exec_cmd: hypervisor working_dir /home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips/4d6ce362-1656-44e7-b8e7-fda585551c0b 
+Dec 07 10:12:42.805 GENERAL: working_dir=/home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips/4d6ce362-1656-44e7-b8e7-fda585551c0b
+Dec 07 10:12:42.805 HYPERVISOR: exec_cmd: vm create ESW2 5 c3725 
+Dec 07 10:12:42.806 VM: VM ESW2 created.
+Dec 07 10:12:42.806 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW2 5016 
+Dec 07 10:12:42.806 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW2 
+Dec 07 10:12:42.807 HYPERVISOR: exec_cmd: vm set_ios ESW2 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:12:42.807 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Dec 07 10:12:42.807 HYPERVISOR: exec_cmd: vm set_idle_pc ESW2 0x60a68e70 
+Dec 07 10:12:42.807 HYPERVISOR: exec_cmd: vm set_nvram ESW2 256 
+Dec 07 10:12:42.807 HYPERVISOR: exec_cmd: vm set_disk0 ESW2 1 
+Dec 07 10:12:42.808 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Dec 07 10:12:42.808 HYPERVISOR: exec_cmd: vm slot_add_binding ESW2 1 0 NM-16ESW 
+Dec 07 10:12:42.855 HYPERVISOR: exec_cmd: vm set_ios ESW2 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:13:27.959 HYPERVISOR: exec_cmd: vm set_ios ESW2 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:13:30.641 HYPERVISOR: exec_cmd: vm set_ios ESW2 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:13:30.641 HYPERVISOR: exec_cmd: vm rename ESW2 F2 
+Dec 07 10:13:30.691 HYPERVISOR: exec_cmd: vm set_ios F2 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:13:36.917 HYPERVISOR: exec_cmd: vm set_ios F2 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:13:40.355 HYPERVISOR: exec_cmd: vm set_ios F2 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:14:12.971 HYPERVISOR: exec_cmd: vm set_ios F2 /home/raquel/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 07 10:55:35.171 HYPERVISOR: exec_cmd: nio create_udp udp-c6eee30d-d12c-4278-a79c-6905669c2447 10028 127.0.0.1 10029 
+Dec 07 10:55:35.381 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F2 1 3 udp-c6eee30d-d12c-4278-a79c-6905669c2447 
+Dec 07 10:55:35.382 HYPERVISOR: exec_cmd: vm get_status F2 
+Dec 07 10:58:02.337 HYPERVISOR: exec_cmd: nio create_udp udp-b0ceade8-450c-4a01-85dd-0d9e8c09f780 10052 127.0.0.1 10053 
+Dec 07 10:58:02.338 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F2 1 2 udp-b0ceade8-450c-4a01-85dd-0d9e8c09f780 
+Dec 07 10:58:02.338 HYPERVISOR: exec_cmd: vm get_status F2 
+Dec 07 10:59:04.364 HYPERVISOR: exec_cmd: nio create_udp udp-0e76a727-867b-4d2f-9f35-727dc2bdbb7a 10064 127.0.0.1 10065 
+Dec 07 10:59:04.365 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F2 0 0 udp-0e76a727-867b-4d2f-9f35-727dc2bdbb7a 
+Dec 07 10:59:04.366 HYPERVISOR: exec_cmd: vm get_status F2 
+Dec 07 11:01:32.129 HYPERVISOR: exec_cmd: nio create_udp udp-630c4fa6-b0f1-4c67-b079-9790b10bcbcc 10076 127.0.0.1 10077 
+Dec 07 11:01:32.130 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F2 0 1 udp-630c4fa6-b0f1-4c67-b079-9790b10bcbcc 
+Dec 07 11:01:32.131 HYPERVISOR: exec_cmd: vm get_status F2 
+Dec 07 11:01:37.798 HYPERVISOR: exec_cmd: nio create_udp udp-90e36ed5-167d-49cb-9422-4ee1bc6d13c3 10080 127.0.0.1 10081 
+Dec 07 11:01:37.800 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F2 1 1 udp-90e36ed5-167d-49cb-9422-4ee1bc6d13c3 
+Dec 07 11:01:37.800 HYPERVISOR: exec_cmd: vm get_status F2 

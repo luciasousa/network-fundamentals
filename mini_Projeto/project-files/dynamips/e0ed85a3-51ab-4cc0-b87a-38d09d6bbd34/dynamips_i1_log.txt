@@ -1,0 +1,51 @@
+Dec 07 10:11:54.926 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 07 10:11:54.926 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 47419.
+Dec 07 10:11:54.936 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 07 10:11:54.936 HYPERVISOR: exec_cmd: hypervisor working_dir /home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips 
+Dec 07 10:11:54.936 GENERAL: working_dir=/home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips
+Dec 07 10:11:54.937 HYPERVISOR: exec_cmd: hypervisor working_dir /home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips/e0ed85a3-51ab-4cc0-b87a-38d09d6bbd34 
+Dec 07 10:11:54.937 GENERAL: working_dir=/home/raquel/Desktop/FR/pratica/mini-projeto/Projeto_FR/mini_Projeto/project-files/dynamips/e0ed85a3-51ab-4cc0-b87a-38d09d6bbd34
+Dec 07 10:11:54.937 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Dec 07 10:11:54.937 VM: VM R1 created.
+Dec 07 10:11:54.937 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5012 
+Dec 07 10:11:54.938 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Dec 07 10:11:54.938 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 07 10:11:54.938 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Dec 07 10:11:54.939 HYPERVISOR: exec_cmd: vm set_ios R1 /home/raquel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 07 10:11:54.939 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 07 10:11:54.939 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x601712a8 
+Dec 07 10:11:54.939 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Dec 07 10:11:54.939 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Dec 07 10:11:54.940 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Dec 07 10:11:54.940 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 07 10:11:54.940 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 0 0 
+Dec 07 10:11:54.940 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 07 10:11:54.940 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-2FE 
+Dec 07 10:11:54.940 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 07 10:11:54.941 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Dec 07 10:11:54.974 HYPERVISOR: exec_cmd: vm set_ios R1 /home/raquel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 07 10:12:00.403 HYPERVISOR: exec_cmd: vm set_ios R1 /home/raquel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 07 10:12:15.415 HYPERVISOR: exec_cmd: vm set_ios R1 /home/raquel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 07 10:12:28.790 HYPERVISOR: exec_cmd: vm set_ios R1 /home/raquel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 07 10:12:28.791 HYPERVISOR: exec_cmd: vm rename R1 Router1 
+Dec 07 10:12:28.824 HYPERVISOR: exec_cmd: vm set_ios Router1 /home/raquel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 07 10:12:30.695 HYPERVISOR: exec_cmd: vm set_ios Router1 /home/raquel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 07 10:14:37.294 HYPERVISOR: exec_cmd: vm set_ios Router1 /home/raquel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 07 10:36:11.033 HYPERVISOR: exec_cmd: vm set_ios Router1 /home/raquel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 07 10:41:01.130 HYPERVISOR: exec_cmd: vm set_ios Router1 /home/raquel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 07 10:54:31.363 HYPERVISOR: exec_cmd: nio create_udp udp-5af1b1a3-1f70-4d3a-b2b4-9913c0440232 10004 127.0.0.1 10005 
+Dec 07 10:54:31.575 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 0 0 udp-5af1b1a3-1f70-4d3a-b2b4-9913c0440232 
+Dec 07 10:54:31.575 HYPERVISOR: exec_cmd: vm get_status Router1 
+Dec 07 10:55:55.778 HYPERVISOR: exec_cmd: nio create_udp udp-0e5f5882-aff4-41ab-92a1-92c9b3132dd4 10034 127.0.0.1 10035 
+Dec 07 10:55:55.779 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 0 1 udp-0e5f5882-aff4-41ab-92a1-92c9b3132dd4 
+Dec 07 10:55:55.780 HYPERVISOR: exec_cmd: vm get_status Router1 
+Dec 07 10:56:50.000 HYPERVISOR: exec_cmd: vm get_status Router1 
+Dec 07 10:56:50.000 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding Router1 0 1 
+Dec 07 10:56:50.002 HYPERVISOR: exec_cmd: nio delete udp-0e5f5882-aff4-41ab-92a1-92c9b3132dd4 
+Dec 07 10:57:06.401 HYPERVISOR: exec_cmd: nio create_udp udp-8fd735fb-db0f-4d83-b2cf-09176c775758 10034 127.0.0.1 10035 
+Dec 07 10:57:06.402 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 0 1 udp-8fd735fb-db0f-4d83-b2cf-09176c775758 
+Dec 07 10:57:06.402 HYPERVISOR: exec_cmd: vm get_status Router1 
+Dec 07 10:58:47.627 HYPERVISOR: exec_cmd: nio create_udp udp-fb5a2265-6e29-493d-943d-50d3f06b2b3e 10056 127.0.0.1 10057 
+Dec 07 10:58:47.629 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 1 0 udp-fb5a2265-6e29-493d-943d-50d3f06b2b3e 
+Dec 07 10:58:47.629 HYPERVISOR: exec_cmd: vm get_status Router1 
+Dec 07 11:08:37.206 HYPERVISOR: exec_cmd: vm set_ios Router1 /home/raquel/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
